@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .logofull {
+    background-image: url('images/viruskiller_logo_full.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 5rem;
+    width: 8rem;
+  }
+
+  .logo {
+    background-image: url('images/viruskiller_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .page {
+    background: url('images/viruskiller_footer.png') repeat-x bottom left;
+    height: 100%;
+    position: relative;
+    color: black;
+    font-family: Arial, Courier, monospace;
+    font-size: 25px;
+  }
+
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  h1 {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .middle2 {
+    transform: translate(0%, -33%);
+    display: flex;
+    justify-content: center;
+  }
+
+  hr {
+    margin: auto;
+    width: 100%;
+  }
+</style>
+
+<body>
+
+  <div class="page">
+    <div class="topleft">
+      <p class="logofull"></p>
+    </div>
+    <div class="middle">
+      <hr />
+      <h1>A weboldalunk hamarosan indul</h1>
+      <hr />
+      <div class="middle2" style="width: 100%">
+        <p class="logo"></p>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>Jobb félni, mint megijedni!</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
